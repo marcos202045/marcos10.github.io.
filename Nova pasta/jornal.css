@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-color: rgb(131, 155, 170);
+}
+    
+    
+
+#img1{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+#img2{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+#um{
+    text-align: center;
+}
+#dois{ 
+    text-align: center;
+}
+#tres{
+    text-align: left;
+
+}
+#elemento{
+    transition: 2s;
+}
+
+@keyframes NOTICIASDEBELOHORIZONTE {
+    
+}
+@keyframes example{
+
+    0% { background-color: green; color:yellow }
+    
+    25% { background-color: yellow; color:blue }
+    
+    50% { background-color: blue; color:white }
+    
+    75% { background-color: white; color: green }
+    
+    100% { background-color: green; color:yellow }
+    
+    }  
+    #semifinal{
+        text-align: left;
+        background-color: rgb(0, 0, 0);
+        color: rgb(241, 239, 239);
+    }
+
+    #example{
+
+        padding: 20px;
+        
+        background-color: rgb(5, 8, 5);
+        color: rgb(243, 232, 232);
+        font-family: Arial;
+        
+        }
+        
+        div{
+        
+        animation-name: example;
+        
+        animation-duration: 4s;
+        
+        animation-iteration-count: infinite;
+        color: green;
+        
+        }
+        
+        @keyframes div{
+        
+        0% { background-color: rgb(2, 133, 2); color:yellow }
+        
+        25% { background-color: yellow; color:blue }
+        
+        50% { background-color: blue; color:white }
+        
+        75% { background-color: white; color: green }
+        
+        100% { background-color: green; color:yellow } 
+    }
